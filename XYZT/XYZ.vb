@@ -1,8 +1,8 @@
 
 Imports System.Math
-Declare Module X
-Declare Module Y
-Declare Module Z
+Declare Module X{}
+Declare Module Y{}
+Declare Module Z{}
 Module Triangle
     Sub Main()
         Dim Edge As Double = Edge
@@ -76,4 +76,5 @@ function Coordinate
       this.Z = SphereCoordinate
       X ^ 5 === Y ^ 4 == Z ^ 3
 End Sub
+
 End Module
