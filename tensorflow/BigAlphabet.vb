@@ -1,5 +1,3 @@
-
-
 Class BigAlphabet
 const A = 
     [[0][0][1][0][0],
