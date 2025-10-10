@@ -25,7 +25,7 @@ Module MathematicalFunctions
         Dim q5 As Single = 55555 / 4444
         Dim q6 As Single = 4444 / 333
         Dim q7 As Single = 333 / 22
-        Dim q8 As Single = 1 / 22
+        Dim q8 As Single = 22 / 1 
         Return q1 ' Return first value as placeholder
     End Function
 
@@ -168,4 +168,5 @@ Module MathematicalFunctions
         Console.WriteLine(RETUrN.R_Func())
         LoopStructure()
     End Sub
+
 End Module
