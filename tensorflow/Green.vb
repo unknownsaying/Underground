@@ -4,8 +4,6 @@ Imports System.Drawing
 Module StringTheoryColor
     Sub Main()
         Console.WriteLine("Green Color in String Theory Analysis")
-        Console.WriteLine("======================================")
-        Console.WriteLine()
         
         ' In string theory, 'color' is a quantum property, not visual perception
         ' But we can create mathematical representations
@@ -14,7 +12,6 @@ Module StringTheoryColor
         Dim greenColor As Color = Color.Green
         Console.WriteLine("RGB Representation of Green:")
         Console.WriteLine($"R: {greenColor.R}, G: {greenColor.G}, B: {greenColor.B}")
-        Console.WriteLine()
         
         ' 2. Wavelength of green light (approximately 550nm)
         Dim greenWavelength As Double = 550 ' nanometers
@@ -24,19 +21,16 @@ Module StringTheoryColor
         Dim speedOfLight As Double = 3.0 * Math.Pow(10, 17) ' nm/s
         Dim greenFrequency As Double = speedOfLight / greenWavelength
         Console.WriteLine("Green Light Frequency: " & FormatScientific(greenFrequency) & " Hz")
-        Console.WriteLine()
         
         ' 4. Energy calculation (E = hν)
         Dim plancksConstant As Double = 6.626 * Math.Pow(10, -34) ' J·s
         Dim greenEnergy As Double = plancksConstant * greenFrequency
         Console.WriteLine("Photon Energy of Green Light: " & FormatScientific(greenEnergy) & " J")
-        Console.WriteLine()
         
         ' 5. String theory connection - vibrational modes
         Console.WriteLine("String Theory Connection:")
         Console.WriteLine("In string theory, different vibrational modes of strings")
         Console.WriteLine("correspond to different particles with various properties.")
-        Console.WriteLine()
         
         ' 6. Mathematical representation of green in different color spaces
         Console.WriteLine("Mathematical Representations:")
@@ -45,7 +39,6 @@ Module StringTheoryColor
         
         Dim cmyk As CMYK = RGBtoCMYK(greenColor.R, greenColor.G, greenColor.B)
         Console.WriteLine($"CMYK: C={cmyk.C:F2}, M={cmyk.M:F2}, Y={cmyk.Y:F2}, K={cmyk.K:F2}")
-        Console.WriteLine()
         
         ' 7. Quantum probability distribution (simplified)
         Console.WriteLine("Simulated Quantum Probability Distribution for 'Green' Property:")
