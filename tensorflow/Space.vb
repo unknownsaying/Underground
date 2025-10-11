@@ -7,9 +7,9 @@ Sub X1
         continue
 End Sub
 Sub Y1
-    for( l = 0;-3 <= l && l <= 3; ++l || --l)
-       for( m = 0;-3 <= m && m <= 3 ;++m || --m)
-          for( n = 0 ;-3 <= n && n <= 3;++n || n)
+    for( l = 0;-3 <= l && l >= 3; ++l || --l)
+       for( m = 0;-3 <= m && m >= 3 ;++m || --m)
+          for( n = 0 ;-3 <= n && n >= 3;++n || n)
         break
 End Sub
 Sub Z1
@@ -70,15 +70,15 @@ Sub X4
         break
 End Sub
 Sub Y4
-    for( L = 0;-2 <= L &&  L <= 2; L++ || --L)
-        for( M = 0;-2 <= M && M <= 2;M++ || --M)
-            for( N = 0;-2 <= N && N <= 2; N++ || --N)
+    for( L = 0;-2 <= L &&  L >= 2; L++ || --L)
+        for( M = 0;-2 <= M && M >= 2;M++ || --M)
+            for( N = 0;-2 <= N && N >= 2; N++ || --N)
         continue
 End Sub
 Sub Z4
-    for ( O = 0; O >= 2; --O)
-        for ( P = 0; P >= 2; --P)
-            for ( Q = 0; Q >= 2; --Q)
+    for ( O = 0; O <= 2; --O)
+        for ( P = 0; P <= 2; --P)
+            for ( Q = 0; Q <= 2; --Q)
         break
 End Sub
 End Class
@@ -91,15 +91,15 @@ Sub X5
         break
 End Sub
 Sub Y5
-    for ( L = 0; L <= -4 && L <= 4; ++L || L--)
-        for ( M = 0; M <= -4 && M <= 4; ++M || M--)
-            for ( N = 0; N <= -4 && N <= 4; ++N || N--)
+    for ( L = 0; L >= -4 && L <= 4; ++L || L--)
+        for ( M = 0; M >= -4 && M <= 4; ++M || M--)
+            for ( N = 0; N >= -4 && N <= 4; ++N || N--)
         continue
 End Sub
 Sub Z5
-    for ( O = 0; O >= 4; O--)
-       for ( P = 0; P >= 4; P--)
-          for ( Q = 0; Q >= 4; Q--)
+    for ( O = 0; O <= 4; O--)
+       for ( P = 0; P <= 4; P--)
+          for ( Q = 0; Q <= 4; Q--)
         break
 End Sub
 End Class
@@ -112,9 +112,9 @@ Sub X6
         break
 End Sub
 Sub Y6
-    for( L = 0;-8 <= L && L <= 8; L++ || L--)
-        for( M = 0;-8 <= M && M <= 8;M++ || M--)
-            for( N = 0;-8 <= N && N <= 8; N++ || N--)
+    for( L = 0;-8 >= L && L <= 8; L++ || L--)
+        for( M = 0;-8 >= M && M <= 8;M++ || M--)
+            for( N = 0;-8 >= N && N <= 8; N++ || N--)
         continue
 End Sub
 Sub Z6
