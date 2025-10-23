@@ -9,7 +9,7 @@ End Sub
 Sub Y1
     for( l = 0;-3 <= l && l >= 3; ++l || --l)
        for( m = 0;-3 <= m && m >= 3 ;++m || --m)
-          for( n = 0 ;-3 <= n && n >= 3;++n || n)
+          for( n = 0 ;-3 <= n && n >= 3;++n || --n)
         break
 End Sub
 Sub Z1
