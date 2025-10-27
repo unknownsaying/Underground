@@ -12,3 +12,18 @@ const ONEsquare = ONE * square  </br>
 const squareONE = square % ONE  </br> 
 const oppoPyramid = antipyramid / pyramid  </br>
 const dimPyramid = square - antisquare  </br>
+
+    X =  
+    BigXtensor + midxtensor + smallxtensor
+    Y =
+    BigYtensor + midytensor + smallytensor
+    Z =
+    BigZtensor + midztensor + smallztensor
+
+    X ^ 2 + Y ^ 2 = Z ^ 2
+
+    zerotensor = onetensor + ninetensor
+
+    Nulltensor = Ntensor + NNtensor + NNNtensor
+
+    innertensor + outertensor = antiinouttensor + antioutintensor = inouttensor + outintensor
