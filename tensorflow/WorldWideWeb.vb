@@ -160,7 +160,6 @@ Public Class WorldWideWebSimulation
             ' Using mathematical operations: multiplication and subtraction
             Dim traffic As Double = CalculateNetworkTraffic()
             Console.WriteLine($"Average network traffic: {traffic:F2} Mbps")
-            Console.WriteLine()
             
             ' Pause briefly to see output
             System.Threading.Thread.Sleep(500)
@@ -180,7 +179,6 @@ Public Class WorldWideWebSimulation
         
         Console.WriteLine($"Total links: {totalLinks}")
         Console.WriteLine($"Average links per page: {totalLinks / web.Count:F2}")
-        Console.WriteLine()
         
         ' Show top 5 most popular pages
         web.Sort(Function(x, y) y.Popularity.CompareTo(x.Popularity))
@@ -188,7 +186,6 @@ Public Class WorldWideWebSimulation
         For i As Integer = 0 To Math.Min(4, web.Count - 1)
             Console.WriteLine($"Page {web(i).Id}: {web(i).Content} (Popularity: {web(i).Popularity:F4})")
         Next
-        Console.WriteLine()
     End Sub
 End Class
 
@@ -197,9 +194,7 @@ Module Program
         Dim www As New WorldWideWebSimulation()
         www.DisplayWebInfo()
         www.RunSimulation(5)
-        
         Console.WriteLine("Simulation completed. Press any key to exit.")
         Console.ReadKey()
     End Sub
-
 End Module
