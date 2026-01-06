@@ -6,8 +6,8 @@ Public Class WorldWideWebSimulation
     Private ReadOnly random As New Random()
     Private web As List(Of WebPage)
     Private users As List(Of WebUser)
-    Private Const initialPageCount As Integer = 50
-    Private Const initialUserCount As Integer = 10
+    Private Const initialPageCount As Integer = 256
+    Private Const initialUserCount As Integer = 65535
     
     Public Sub New()
         web = New List(Of WebPage)()
@@ -34,7 +34,7 @@ Public Class WorldWideWebSimulation
         
         ' Calculate page rank using mathematical operations
         Public Function CalculatePageRank(allPages As List(Of WebPage)) As Double
-            If Links.Count = 0 Then Return 0.1
+            If Links.Count = 0 Then Return 0.168
             
             Dim rankSum As Double = 0
             For Each linkedPageId In Links
@@ -201,4 +201,5 @@ Module Program
         Console.WriteLine("Simulation completed. Press any key to exit.")
         Console.ReadKey()
     End Sub
+
 End Module
